@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C234E71E19511471007C5325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E71D19511471007C5325 /* Foundation.framework */; };
+		C234E72019511471007C5325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E71F19511471007C5325 /* CoreGraphics.framework */; };
+		C234E72219511471007C5325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E72119511471007C5325 /* UIKit.framework */; };
+		C234E72819511471007C5325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C234E72619511471007C5325 /* InfoPlist.strings */; };
+		C234E72A19511472007C5325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E72919511472007C5325 /* main.m */; };
+		C234E72E19511472007C5325 /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E72D19511472007C5325 /* CFAppDelegate.m */; };
+		C234E73019511472007C5325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C234E72F19511472007C5325 /* Images.xcassets */; };
+		C234E73719511472007C5325 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E73619511472007C5325 /* XCTest.framework */; };
+		C234E73819511472007C5325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E71D19511471007C5325 /* Foundation.framework */; };
+		C234E73919511472007C5325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E72119511471007C5325 /* UIKit.framework */; };
+		C234E74119511472007C5325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C234E73F19511472007C5325 /* InfoPlist.strings */; };
+		C234E74319511472007C5325 /* CityManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E74219511472007C5325 /* CityManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C234E73A19511472007C5325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C234E71219511471007C5325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C234E71919511471007C5325;
+			remoteInfo = CityManagerUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C234E71A19511471007C5325 /* CityManagerUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityManagerUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C234E71D19511471007C5325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C234E71F19511471007C5325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C234E72119511471007C5325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C234E72519511471007C5325 /* CityManagerUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CityManagerUI-Info.plist"; sourceTree = "<group>"; };
+		C234E72719511471007C5325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C234E72919511472007C5325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C234E72B19511472007C5325 /* CityManagerUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CityManagerUI-Prefix.pch"; sourceTree = "<group>"; };
+		C234E72C19511472007C5325 /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		C234E72D19511472007C5325 /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		C234E72F19511472007C5325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C234E73519511472007C5325 /* CityManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C234E73619511472007C5325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C234E73E19511472007C5325 /* CityManagerUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CityManagerUITests-Info.plist"; sourceTree = "<group>"; };
+		C234E74019511472007C5325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C234E74219511472007C5325 /* CityManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityManagerUITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C234E71719511471007C5325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C234E72019511471007C5325 /* CoreGraphics.framework in Frameworks */,
+				C234E72219511471007C5325 /* UIKit.framework in Frameworks */,
+				C234E71E19511471007C5325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C234E73219511472007C5325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C234E73719511472007C5325 /* XCTest.framework in Frameworks */,
+				C234E73919511472007C5325 /* UIKit.framework in Frameworks */,
+				C234E73819511472007C5325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C234E71119511471007C5325 = {
+			isa = PBXGroup;
+			children = (
+				C234E72319511471007C5325 /* CityManagerUI */,
+				C234E73C19511472007C5325 /* CityManagerUITests */,
+				C234E71C19511471007C5325 /* Frameworks */,
+				C234E71B19511471007C5325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C234E71B19511471007C5325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C234E71A19511471007C5325 /* CityManagerUI.app */,
+				C234E73519511472007C5325 /* CityManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C234E71C19511471007C5325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C234E71D19511471007C5325 /* Foundation.framework */,
+				C234E71F19511471007C5325 /* CoreGraphics.framework */,
+				C234E72119511471007C5325 /* UIKit.framework */,
+				C234E73619511472007C5325 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C234E72319511471007C5325 /* CityManagerUI */ = {
+			isa = PBXGroup;
+			children = (
+				C234E72C19511472007C5325 /* CFAppDelegate.h */,
+				C234E72D19511472007C5325 /* CFAppDelegate.m */,
+				C234E72F19511472007C5325 /* Images.xcassets */,
+				C234E72419511471007C5325 /* Supporting Files */,
+			);
+			path = CityManagerUI;
+			sourceTree = "<group>";
+		};
+		C234E72419511471007C5325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C234E72519511471007C5325 /* CityManagerUI-Info.plist */,
+				C234E72619511471007C5325 /* InfoPlist.strings */,
+				C234E72919511472007C5325 /* main.m */,
+				C234E72B19511472007C5325 /* CityManagerUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C234E73C19511472007C5325 /* CityManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C234E74219511472007C5325 /* CityManagerUITests.m */,
+				C234E73D19511472007C5325 /* Supporting Files */,
+			);
+			path = CityManagerUITests;
+			sourceTree = "<group>";
+		};
+		C234E73D19511472007C5325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C234E73E19511472007C5325 /* CityManagerUITests-Info.plist */,
+				C234E73F19511472007C5325 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C234E71919511471007C5325 /* CityManagerUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C234E74619511472007C5325 /* Build configuration list for PBXNativeTarget "CityManagerUI" */;
+			buildPhases = (
+				C234E71619511471007C5325 /* Sources */,
+				C234E71719511471007C5325 /* Frameworks */,
+				C234E71819511471007C5325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityManagerUI;
+			productName = CityManagerUI;
+			productReference = C234E71A19511471007C5325 /* CityManagerUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C234E73419511472007C5325 /* CityManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C234E74919511472007C5325 /* Build configuration list for PBXNativeTarget "CityManagerUITests" */;
+			buildPhases = (
+				C234E73119511472007C5325 /* Sources */,
+				C234E73219511472007C5325 /* Frameworks */,
+				C234E73319511472007C5325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C234E73B19511472007C5325 /* PBXTargetDependency */,
+			);
+			name = CityManagerUITests;
+			productName = CityManagerUITests;
+			productReference = C234E73519511472007C5325 /* CityManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C234E71219511471007C5325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Shadow;
+				TargetAttributes = {
+					C234E73419511472007C5325 = {
+						TestTargetID = C234E71919511471007C5325;
+					};
+				};
+			};
+			buildConfigurationList = C234E71519511471007C5325 /* Build configuration list for PBXProject "CityManagerUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C234E71119511471007C5325;
+			productRefGroup = C234E71B19511471007C5325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C234E71919511471007C5325 /* CityManagerUI */,
+				C234E73419511472007C5325 /* CityManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C234E71819511471007C5325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C234E72819511471007C5325 /* InfoPlist.strings in Resources */,
+				C234E73019511472007C5325 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C234E73319511472007C5325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C234E74119511472007C5325 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C234E71619511471007C5325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C234E72A19511472007C5325 /* main.m in Sources */,
+				C234E72E19511472007C5325 /* CFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C234E73119511472007C5325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C234E74319511472007C5325 /* CityManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C234E73B19511472007C5325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C234E71919511471007C5325 /* CityManagerUI */;
+			targetProxy = C234E73A19511472007C5325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C234E72619511471007C5325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C234E72719511471007C5325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C234E73F19511472007C5325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C234E74019511472007C5325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C234E74419511472007C5325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C234E74519511472007C5325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C234E74719511472007C5325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CityManagerUI/CityManagerUI-Prefix.pch";
+				INFOPLIST_FILE = "CityManagerUI/CityManagerUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C234E74819511472007C5325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CityManagerUI/CityManagerUI-Prefix.pch";
+				INFOPLIST_FILE = "CityManagerUI/CityManagerUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C234E74A19511472007C5325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CityManagerUI.app/CityManagerUI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CityManagerUI/CityManagerUI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CityManagerUITests/CityManagerUITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C234E74B19511472007C5325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CityManagerUI.app/CityManagerUI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CityManagerUI/CityManagerUI-Prefix.pch";
+				INFOPLIST_FILE = "CityManagerUITests/CityManagerUITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C234E71519511471007C5325 /* Build configuration list for PBXProject "CityManagerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C234E74419511472007C5325 /* Debug */,
+				C234E74519511472007C5325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C234E74619511472007C5325 /* Build configuration list for PBXNativeTarget "CityManagerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C234E74719511472007C5325 /* Debug */,
+				C234E74819511472007C5325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C234E74919511472007C5325 /* Build configuration list for PBXNativeTarget "CityManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C234E74A19511472007C5325 /* Debug */,
+				C234E74B19511472007C5325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C234E71219511471007C5325 /* Project object */;
+}
