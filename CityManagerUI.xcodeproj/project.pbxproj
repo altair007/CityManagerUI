@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22CA8AC1951650000B4A911 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = C22CA8AB1951650000B4A911 /* readme.md */; };
 		C234E71E19511471007C5325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E71D19511471007C5325 /* Foundation.framework */; };
 		C234E72019511471007C5325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E71F19511471007C5325 /* CoreGraphics.framework */; };
 		C234E72219511471007C5325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E72119511471007C5325 /* UIKit.framework */; };
@@ -24,7 +25,6 @@
 		C234E7541951152B007C5325 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = C234E7531951152B007C5325 /* area.plist */; };
 		C234E758195116EE007C5325 /* CFCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E757195116EE007C5325 /* CFCityViewController.m */; };
 		C234E75E19511C06007C5325 /* CFCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E75D19511C06007C5325 /* CFCityView.m */; };
-		C234E7A31951566E007C5325 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = C234E7A21951566E007C5325 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C22CA8AB1951650000B4A911 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = SOURCE_ROOT; };
 		C234E71A19511471007C5325 /* CityManagerUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityManagerUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C234E71D19511471007C5325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C234E71F19511471007C5325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +64,6 @@
 		C234E757195116EE007C5325 /* CFCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCityViewController.m; sourceTree = "<group>"; };
 		C234E75C19511C06007C5325 /* CFCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCityView.h; sourceTree = "<group>"; };
 		C234E75D19511C06007C5325 /* CFCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCityView.m; sourceTree = "<group>"; };
-		C234E7A21951566E007C5325 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,12 +136,12 @@
 		C234E72419511471007C5325 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C234E7A21951566E007C5325 /* readme.md */,
 				C234E7531951152B007C5325 /* area.plist */,
 				C234E72519511471007C5325 /* CityManagerUI-Info.plist */,
 				C234E72619511471007C5325 /* InfoPlist.strings */,
 				C234E72919511472007C5325 /* main.m */,
 				C234E72B19511472007C5325 /* CityManagerUI-Prefix.pch */,
+				C22CA8AB1951650000B4A911 /* readme.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,9 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22CA8AC1951650000B4A911 /* readme.md in Resources */,
 				C234E72819511471007C5325 /* InfoPlist.strings in Resources */,
 				C234E73019511472007C5325 /* Images.xcassets in Resources */,
-				C234E7A31951566E007C5325 /* readme.md in Resources */,
 				C234E7541951152B007C5325 /* area.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +490,7 @@
 				C234E74819511472007C5325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C234E74919511472007C5325 /* Build configuration list for PBXNativeTarget "CityManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				C234E74B19511472007C5325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
