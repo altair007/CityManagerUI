@@ -7,14 +7,27 @@
 //
 
 #import "CFAppDelegate.h"
+#import "CFMainController.h"
+#import "CFCityViewController.h"
 
 @implementation CFAppDelegate
+-(void)dealloc
+{
+    self.window = nil;
+    
+    [super dealloc];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIWindow * window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = window;
+    [window release];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor grayColor];
+    
+    self.window.rootViewController = [[CFMainController sharedInstance] navController];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

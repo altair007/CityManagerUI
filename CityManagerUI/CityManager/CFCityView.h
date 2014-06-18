@@ -1,5 +1,5 @@
 //
-//  CFAppDelegate.h
+//  CFCityView.h
 //  CityManagerUI
 //
 //  Created by   颜风 on 14-6-18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CFAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (retain, nonatomic) UIWindow *window;
+@interface CFCityView : UITableView
 
 @end
