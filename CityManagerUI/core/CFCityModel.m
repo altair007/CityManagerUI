@@ -75,7 +75,6 @@
     return result;
 }
 
-// ???:如何可以同时传过来省的名字,是不是遍历更快些呢?
 - (NSArray *) infoOfCith: (NSString *) city
 {
     NSMutableArray * result = [[NSMutableArray alloc] initWithCapacity: 42];

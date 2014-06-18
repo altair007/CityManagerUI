@@ -53,11 +53,6 @@
 - (NSArray *) infoOfCity: (NSString *) city;
 
 /**
- *  转向中国的城市信息页.
- */
-- (void) switchToInfoViewOfChina;
-
-/**
  *  转向某省的城市信息页.
  *
  *  @param province 省名.
@@ -70,5 +65,12 @@
  *  @param city 市名.
  */
 - (void) switchToInfoViewOfCity:(NSString *) city;
+
+/**
+ *  响应事件:点击导航栏返回按钮.
+ *
+ *  @param buttonItem 返回按钮.
+ */
+- (void) didClickBackButtonItemAction: (UIBarButtonItem *) buttonItem;
 
 @end
