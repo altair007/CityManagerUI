@@ -119,17 +119,17 @@ static CFMainController * sharedObj = nil;
 }
 
 - (NSArray *) infoOfCity: (NSString *) city
+                province: (NSString *) province
 {
-    NSArray * info = [self.model infoOfCith: city];
+    NSArray * info = [self.model infoOfCith: city province: province];
     
     return info;
 }
 
-// ???:看一下云姐demo.据说返回时,会崩!
-// !!!:更新文件夹.
 - (void) switchToInfoViewOfProvince: (NSString *) province
 {
     self.provinceVC.infoOfCities = [self infoOfProvince: province];
+    self.provinceVC.title = province;
     
     if (nil == self.provinceVC.navigationItem.leftBarButtonItem &&
         self.provinceVC != self.navController.viewControllers[0]) { // 添加返回按钮.
@@ -146,9 +146,10 @@ static CFMainController * sharedObj = nil;
 }
 
 - (void) switchToInfoViewOfCity:(NSString *) city
+                       province: (NSString *) province
 {
-    self.cityVC.infoOfCities = [self infoOfCity: city];
-    
+    self.cityVC.infoOfCities = [self infoOfCity: city province: province];
+    self.cityVC.title = city;
     
     if (nil == self.cityVC.navigationItem.leftBarButtonItem &&
         self.cityVC != self.navController.viewControllers[0]) {  // 添加返回按钮.

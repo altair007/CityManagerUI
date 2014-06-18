@@ -44,13 +44,15 @@
 - (NSArray *) infoOfProvince: (NSString *) province;
 
 /**
- *  获取某个市的区县信息.
+ *  获取某省某市的区县信息.
  *
  *  @param city 市名.
+ *  @param province 省名.
  *
  *  @return 某个市的区县信息.
  */
-- (NSArray *) infoOfCity: (NSString *) city;
+- (NSArray *) infoOfCity: (NSString *) city
+                province: (NSString *) province;
 
 /**
  *  转向某省的城市信息页.
@@ -60,11 +62,13 @@
 - (void) switchToInfoViewOfProvince: (NSString *) province;
 
 /**
- * 转向某市的区县信息页.
+ * 转向某省某市的区县信息页.
  *
- *  @param city 市名.
+ *  @param city 市名
+ *  @param province 省名.
  */
-- (void) switchToInfoViewOfCity:(NSString *) city;
+- (void) switchToInfoViewOfCity:(NSString *) city
+                       province: (NSString *) province;
 
 /**
  *  响应事件:点击导航栏返回按钮.

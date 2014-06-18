@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2167A9D1951B4C300F2EAE4 /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2167A8E1951B4C300F2EAE4 /* CFAppDelegate.m */; };
+		C2167A9E1951B4C300F2EAE4 /* CFMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2167A911951B4C300F2EAE4 /* CFMainController.m */; };
+		C2167A9F1951B4C300F2EAE4 /* CFCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2167A951951B4C300F2EAE4 /* CFCityModel.m */; };
+		C2167AA01951B4C300F2EAE4 /* CFCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2167A9A1951B4C300F2EAE4 /* CFCityView.m */; };
+		C2167AA11951B4C300F2EAE4 /* CFCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2167A9C1951B4C300F2EAE4 /* CFCityViewController.m */; };
+		C2167AA61951B4CE00F2EAE4 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2167AA31951B4CE00F2EAE4 /* area.plist */; };
 		C22CA8AC1951650000B4A911 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = C22CA8AB1951650000B4A911 /* readme.md */; };
 		C234E71E19511471007C5325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E71D19511471007C5325 /* Foundation.framework */; };
 		C234E72019511471007C5325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E71F19511471007C5325 /* CoreGraphics.framework */; };
 		C234E72219511471007C5325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E72119511471007C5325 /* UIKit.framework */; };
 		C234E72819511471007C5325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C234E72619511471007C5325 /* InfoPlist.strings */; };
 		C234E72A19511472007C5325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E72919511472007C5325 /* main.m */; };
-		C234E72E19511472007C5325 /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E72D19511472007C5325 /* CFAppDelegate.m */; };
 		C234E73019511472007C5325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C234E72F19511472007C5325 /* Images.xcassets */; };
 		C234E73719511472007C5325 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E73619511472007C5325 /* XCTest.framework */; };
 		C234E73819511472007C5325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E71D19511471007C5325 /* Foundation.framework */; };
 		C234E73919511472007C5325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234E72119511471007C5325 /* UIKit.framework */; };
 		C234E74119511472007C5325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C234E73F19511472007C5325 /* InfoPlist.strings */; };
 		C234E74319511472007C5325 /* CityManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E74219511472007C5325 /* CityManagerUITests.m */; };
-		C234E74F19511500007C5325 /* CFCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E74E19511500007C5325 /* CFCityModel.m */; };
-		C234E75219511515007C5325 /* CFMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E75119511515007C5325 /* CFMainController.m */; };
-		C234E7541951152B007C5325 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = C234E7531951152B007C5325 /* area.plist */; };
-		C234E758195116EE007C5325 /* CFCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E757195116EE007C5325 /* CFCityViewController.m */; };
-		C234E75E19511C06007C5325 /* CFCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C234E75D19511C06007C5325 /* CFCityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,32 +38,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2167A8D1951B4C300F2EAE4 /* CFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		C2167A8E1951B4C300F2EAE4 /* CFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		C2167A901951B4C300F2EAE4 /* CFMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMainController.h; sourceTree = "<group>"; };
+		C2167A911951B4C300F2EAE4 /* CFMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFMainController.m; sourceTree = "<group>"; };
+		C2167A941951B4C300F2EAE4 /* CFCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCityModel.h; sourceTree = "<group>"; };
+		C2167A951951B4C300F2EAE4 /* CFCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCityModel.m; sourceTree = "<group>"; };
+		C2167A991951B4C300F2EAE4 /* CFCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCityView.h; sourceTree = "<group>"; };
+		C2167A9A1951B4C300F2EAE4 /* CFCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCityView.m; sourceTree = "<group>"; };
+		C2167A9B1951B4C300F2EAE4 /* CFCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCityViewController.h; sourceTree = "<group>"; };
+		C2167A9C1951B4C300F2EAE4 /* CFCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCityViewController.m; sourceTree = "<group>"; };
+		C2167AA31951B4CE00F2EAE4 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		C2167AA41951B4CE00F2EAE4 /* CityManagerUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CityManagerUI-Info.plist"; sourceTree = "<group>"; };
+		C2167AA81951B50C00F2EAE4 /* CityManagerUI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CityManagerUI-Prefix.pch"; sourceTree = "<group>"; };
+		C2167AA91951B56E00F2EAE4 /* CityManagerUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CityManagerUI-Info.plist"; sourceTree = "<group>"; };
 		C22CA8AB1951650000B4A911 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = SOURCE_ROOT; };
 		C234E71A19511471007C5325 /* CityManagerUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityManagerUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C234E71D19511471007C5325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C234E71F19511471007C5325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C234E72119511471007C5325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C234E72519511471007C5325 /* CityManagerUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CityManagerUI-Info.plist"; sourceTree = "<group>"; };
 		C234E72719511471007C5325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C234E72919511472007C5325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C234E72B19511472007C5325 /* CityManagerUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CityManagerUI-Prefix.pch"; sourceTree = "<group>"; };
-		C234E72C19511472007C5325 /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
-		C234E72D19511472007C5325 /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
 		C234E72F19511472007C5325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C234E73519511472007C5325 /* CityManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C234E73619511472007C5325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C234E73E19511472007C5325 /* CityManagerUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CityManagerUITests-Info.plist"; sourceTree = "<group>"; };
 		C234E74019511472007C5325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C234E74219511472007C5325 /* CityManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityManagerUITests.m; sourceTree = "<group>"; };
-		C234E74D19511500007C5325 /* CFCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCityModel.h; sourceTree = "<group>"; };
-		C234E74E19511500007C5325 /* CFCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCityModel.m; sourceTree = "<group>"; };
-		C234E75019511515007C5325 /* CFMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMainController.h; sourceTree = "<group>"; };
-		C234E75119511515007C5325 /* CFMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFMainController.m; sourceTree = "<group>"; };
-		C234E7531951152B007C5325 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
-		C234E756195116EE007C5325 /* CFCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCityViewController.h; sourceTree = "<group>"; };
-		C234E757195116EE007C5325 /* CFCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCityViewController.m; sourceTree = "<group>"; };
-		C234E75C19511C06007C5325 /* CFCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCityView.h; sourceTree = "<group>"; };
-		C234E75D19511C06007C5325 /* CFCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2167A8B1951B4C300F2EAE4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C2167A8C1951B4C300F2EAE4 /* AppDelegate */,
+				C2167A8F1951B4C300F2EAE4 /* Controller */,
+				C2167A921951B4C300F2EAE4 /* Helper */,
+				C2167A931951B4C300F2EAE4 /* Model */,
+				C2167A961951B4C300F2EAE4 /* OperSource */,
+				C2167A971951B4C300F2EAE4 /* Scence */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C2167A8C1951B4C300F2EAE4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C2167A8D1951B4C300F2EAE4 /* CFAppDelegate.h */,
+				C2167A8E1951B4C300F2EAE4 /* CFAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C2167A8F1951B4C300F2EAE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2167A901951B4C300F2EAE4 /* CFMainController.h */,
+				C2167A911951B4C300F2EAE4 /* CFMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2167A921951B4C300F2EAE4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C2167A931951B4C300F2EAE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2167A941951B4C300F2EAE4 /* CFCityModel.h */,
+				C2167A951951B4C300F2EAE4 /* CFCityModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2167A961951B4C300F2EAE4 /* OperSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OperSource;
+			sourceTree = "<group>";
+		};
+		C2167A971951B4C300F2EAE4 /* Scence */ = {
+			isa = PBXGroup;
+			children = (
+				C2167A981951B4C300F2EAE4 /* CityManager */,
+			);
+			path = Scence;
+			sourceTree = "<group>";
+		};
+		C2167A981951B4C300F2EAE4 /* CityManager */ = {
+			isa = PBXGroup;
+			children = (
+				C2167A991951B4C300F2EAE4 /* CFCityView.h */,
+				C2167A9A1951B4C300F2EAE4 /* CFCityView.m */,
+				C2167A9B1951B4C300F2EAE4 /* CFCityViewController.h */,
+				C2167A9C1951B4C300F2EAE4 /* CFCityViewController.m */,
+			);
+			path = CityManager;
+			sourceTree = "<group>";
+		};
+		C2167AA21951B4CE00F2EAE4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C2167AA31951B4CE00F2EAE4 /* area.plist */,
+				C2167AA41951B4CE00F2EAE4 /* CityManagerUI-Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		C234E71119511471007C5325 = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +206,8 @@
 		C234E72319511471007C5325 /* CityManagerUI */ = {
 			isa = PBXGroup;
 			children = (
-				C234E72C19511472007C5325 /* CFAppDelegate.h */,
-				C234E72D19511472007C5325 /* CFAppDelegate.m */,
+				C2167AA21951B4CE00F2EAE4 /* Resource */,
+				C2167A8B1951B4C300F2EAE4 /* Class */,
 				C234E72F19511472007C5325 /* Images.xcassets */,
 				C234E74C195114CA007C5325 /* core */,
 				C234E755195116AE007C5325 /* CityManager */,
@@ -136,11 +219,10 @@
 		C234E72419511471007C5325 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C234E7531951152B007C5325 /* area.plist */,
-				C234E72519511471007C5325 /* CityManagerUI-Info.plist */,
+				C2167AA91951B56E00F2EAE4 /* CityManagerUI-Info.plist */,
+				C2167AA81951B50C00F2EAE4 /* CityManagerUI-Prefix.pch */,
 				C234E72619511471007C5325 /* InfoPlist.strings */,
 				C234E72919511472007C5325 /* main.m */,
-				C234E72B19511472007C5325 /* CityManagerUI-Prefix.pch */,
 				C22CA8AB1951650000B4A911 /* readme.md */,
 			);
 			name = "Supporting Files";
@@ -167,10 +249,6 @@
 		C234E74C195114CA007C5325 /* core */ = {
 			isa = PBXGroup;
 			children = (
-				C234E74D19511500007C5325 /* CFCityModel.h */,
-				C234E74E19511500007C5325 /* CFCityModel.m */,
-				C234E75019511515007C5325 /* CFMainController.h */,
-				C234E75119511515007C5325 /* CFMainController.m */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -178,10 +256,6 @@
 		C234E755195116AE007C5325 /* CityManager */ = {
 			isa = PBXGroup;
 			children = (
-				C234E756195116EE007C5325 /* CFCityViewController.h */,
-				C234E757195116EE007C5325 /* CFCityViewController.m */,
-				C234E75C19511C06007C5325 /* CFCityView.h */,
-				C234E75D19511C06007C5325 /* CFCityView.m */,
 			);
 			path = CityManager;
 			sourceTree = "<group>";
@@ -263,9 +337,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22CA8AC1951650000B4A911 /* readme.md in Resources */,
+				C2167AA61951B4CE00F2EAE4 /* area.plist in Resources */,
 				C234E72819511471007C5325 /* InfoPlist.strings in Resources */,
 				C234E73019511472007C5325 /* Images.xcassets in Resources */,
-				C234E7541951152B007C5325 /* area.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +358,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C234E758195116EE007C5325 /* CFCityViewController.m in Sources */,
-				C234E74F19511500007C5325 /* CFCityModel.m in Sources */,
+				C2167AA01951B4C300F2EAE4 /* CFCityView.m in Sources */,
 				C234E72A19511472007C5325 /* main.m in Sources */,
-				C234E72E19511472007C5325 /* CFAppDelegate.m in Sources */,
-				C234E75E19511C06007C5325 /* CFCityView.m in Sources */,
-				C234E75219511515007C5325 /* CFMainController.m in Sources */,
+				C2167A9F1951B4C300F2EAE4 /* CFCityModel.m in Sources */,
+				C2167A9D1951B4C300F2EAE4 /* CFAppDelegate.m in Sources */,
+				C2167A9E1951B4C300F2EAE4 /* CFMainController.m in Sources */,
+				C2167AA11951B4C300F2EAE4 /* CFCityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

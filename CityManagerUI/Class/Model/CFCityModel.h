@@ -37,6 +37,7 @@
  *
  *  @return 某个市的区县信息.
  */
-- (NSArray *) infoOfCith: (NSString *) city;
+- (NSArray *) infoOfCith: (NSString *) city
+                province: (NSString *) province;
 
 @end

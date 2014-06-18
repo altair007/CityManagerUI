@@ -19,6 +19,7 @@
 - (void)dealloc
 {
     self.infoOfCities = nil;
+    self.title = nil;
     
     [super dealloc];
 }
@@ -81,6 +82,7 @@
     [self.view reloadData];
 }
 
+
 # pragma mark - UITableViewDataSource协议方法.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -119,7 +121,7 @@
             break;
             
         case PROVIENCE:
-            [sharedInstance switchToInfoViewOfCity: info];
+            [sharedInstance switchToInfoViewOfCity: info province: self.title];
             break;
         
         default:
