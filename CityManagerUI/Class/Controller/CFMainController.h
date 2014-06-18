@@ -70,11 +70,4 @@
 - (void) switchToInfoViewOfCity:(NSString *) city
                        province: (NSString *) province;
 
-/**
- *  响应事件:点击导航栏返回按钮.
- *
- *  @param buttonItem 返回按钮.
- */
-- (void) didClickBackButtonItemAction: (UIBarButtonItem *) buttonItem;
-
 @end

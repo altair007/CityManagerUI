@@ -72,6 +72,7 @@ static CFMainController * sharedObj = nil;
     if (self = [super init]) {
         
         CFCityViewController * countryVC = [[CFCityViewController alloc] initWithLevel:COUNTRY];
+        countryVC.title = @"中国";
         self.countryVC = countryVC;
         [countryVC release];
         
@@ -131,13 +132,6 @@ static CFMainController * sharedObj = nil;
     self.provinceVC.infoOfCities = [self infoOfProvince: province];
     self.provinceVC.title = province;
     
-    if (nil == self.provinceVC.navigationItem.leftBarButtonItem &&
-        self.provinceVC != self.navController.viewControllers[0]) { // 添加返回按钮.
-        UIBarButtonItem * backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:@selector(didClickBackButtonItemAction:)];
-        self.provinceVC.navigationItem.leftBarButtonItem = backBarButtonItem;
-        [backBarButtonItem release];
-    }
-    
     if (YES == [self.navController.viewControllers containsObject: self.provinceVC]) {
         [self.navController popToViewController:self.provinceVC animated: YES];
     }
@@ -151,13 +145,6 @@ static CFMainController * sharedObj = nil;
     self.cityVC.infoOfCities = [self infoOfCity: city province: province];
     self.cityVC.title = city;
     
-    if (nil == self.cityVC.navigationItem.leftBarButtonItem &&
-        self.cityVC != self.navController.viewControllers[0]) {  // 添加返回按钮.
-        UIBarButtonItem * backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:@selector(didClickBackButtonItemAction:)];
-        self.cityVC.navigationItem.leftBarButtonItem = backBarButtonItem;
-        [backBarButtonItem release];
-    }
-    
     if (YES == [self.navController.viewControllers containsObject: self.cityVC]) {
         [self.navController popToViewController:self.cityVC animated: YES];
     }
@@ -165,11 +152,6 @@ static CFMainController * sharedObj = nil;
 
     
     [self.navController pushViewController:self.cityVC animated:YES];
-}
-
-- (void) didClickBackButtonItemAction: (UIBarButtonItem *) buttonItem
-{
-    [self.navController popViewControllerAnimated:YES];
 }
 
 @end
